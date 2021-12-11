@@ -8,8 +8,11 @@ h3, h1, h2, p {
   margin: 0;
 }
 
-header {
+.dark-bg-color {
   background-color: #1F2937;
+}
+
+header {
   color: #F9FAF8;
   font-size: 24px;
   display: flex;
@@ -43,7 +46,6 @@ a {
   justify-content: space-around;
   flex-wrap: wrap;
   padding: 90px 100px 75px 100px;
-  background-color: #1F2937;
 }
 
 .hero-left {
@@ -162,7 +164,6 @@ a {
 }
 
 footer {
-  background-color: #1F2937;
   color: #F9FAF8;
   display: flex;
   align-items: center;
