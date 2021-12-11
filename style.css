@@ -144,10 +144,15 @@ a {
   background-color: #3882F6;
   color: #F9FAF8;
   border-radius: 8px;
-  padding: 45px 0;
+  padding: 45px 10px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  flex-wrap: wrap;
+}
+
+.signup-wrapper.right-section {
+  flex-shrink: 0;
 }
 
 .right-section button {
